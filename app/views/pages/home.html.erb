@@ -12,7 +12,7 @@
       <div class="col-xs-6"></div>
     </div>
   </div>
-  <div class="text-center" style="position: relative; top: 140px;">
+  <div class="text-center" style="position: relative; top: 120px;">
     <a href="#features">
       <i class="fa fa-angle-down pulse" style="font-size: 50px; color: white;"></i>
     </a>
@@ -52,8 +52,13 @@
       </div>
     </div>
   </div>
+  <div class="text-center" style="position: relative; top: 120px;">
+    <a href="#newsletter">
+      <i class="fa fa-angle-down pulse" style="font-size: 50px; color: white;"></i>
+    </a>
+  </div>
 </div>
-<div class="text-center padded">
+<div class="text-center padded" id="newsletter">
   <h2>Des nouvelles de NomadHome ?</h2>
   <p>Laissez votre email et vous aurez les dernières news :</p>
   <form class="form-inline">
@@ -61,6 +66,7 @@
     <input type="submit" value="Souscrire" class="btn btn-primary">
   </form>
 </div>
+
 
 <!-- Modal -->
 <div class="modal fade" id="orderForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -104,5 +110,6 @@
 </div>
 
 <script>
-  window.sr = new scrollReveal();
+    window.sr = new ScrollReveal()
+		sr.reveal('.card', { origin: 'left', distance: '20px', duration: 3000, })
 </script>

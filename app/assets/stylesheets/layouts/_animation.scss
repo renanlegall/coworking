@@ -1,0 +1,31 @@
+@keyframes appearIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes appearIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes appearIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.appearIn {
+  opacity: 0;
+  animation: appearIn 2s 1s ease forwards;
+  -webkit-animation: appearIn 2s 1s ease forwards;
+  -moz-animation: appearIn 2s 1s ease forwards;
+}
