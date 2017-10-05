@@ -1,1 +1,27 @@
 // Specific CSS for your home-page
+.banner {
+  // background-image: url('https://s3.amazonaws.com/StartupStockPhotos/uploads/41.jpg'), linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%);
+  color: white;
+  padding: 150px 0;
+  background-size: cover;
+  height: 650px;
+  h1 {
+    font-size: 65px;
+    color: white;
+    font-family: "Comfortaa";
+  }
+  p {
+    font-size: 25px;
+    font-weight: 100;
+
+  }
+}
+ #features {
+   h2 {
+     font-size: 28px;
+     color: #fda345;
+   }
+   p {
+     font-size: 14px;
+   }
+ }
