@@ -1,0 +1,38 @@
+.pricing {
+  padding-top: 8em;
+  padding-bottom: 12em;
+  h4 {
+    font-family: "Comfortaa";
+  }
+  h3 {
+    font-family: "Comfortaa";
+    color: #fda345;
+  }
+}
+
+.price {
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.offer {
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid white;
+  position: relative;
+  background-position: center;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.suboffer {
+  color:white;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 10px;
+  background-position: center;
+  ul {
+  list-style-type: none;
+  }
+}
